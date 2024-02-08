@@ -3700,8 +3700,8 @@ fieldset:disabled .btn {
 }
 
 .btn-light {
-    --bs-btn-color: white;
-    --bs-btn-bg: red;
+    --bs-btn-color: black;
+    --bs-btn-bg: white;
     --bs-btn-border-color: #f8f9fa;
     --bs-btn-hover-color: var(--black);
     --bs-btn-hover-bg: #d3d4d5;

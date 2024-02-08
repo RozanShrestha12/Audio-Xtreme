@@ -83,6 +83,53 @@ nav .navbar-nav {
   color: black;
 }
 
+.partners {
+  padding: 3rem 0rem;
+  margin-bottom: 0rem;
+  
+}
+.partner img{
+  aspect-ratio: 3/2;
+}
+.partners .flex {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1rem;
+}
+
+
+@media (max-width: 576px) {
+  .partners .flex {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+
+@media (max-width: 300px) {
+  .partners .flex {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.partners .partner {
+  width: 100%;
+}
+.partners{
+  background-color: white;
+}
+.partners .partner img {
+  width: 100%;
+  transform: perspective(400px)
+  rotate3d(var(--r, 1, -1), 0, calc(var(--i, 1) * var(--a)));
+  -webkit-mask: linear-gradient(135deg, #000c 40%, #000, #000c 60%) 100% 100%/250%
+    250%;
+}
+
+.partners .partner img:hover {
+  --i: -1;
+  --r: 1;
+  --a: 0.5turn;
+  -webkit-mask-position: 0 0;
+}
 
 nav .navbar-nav .nav-link {
   color: var(--navigation-link-color);
