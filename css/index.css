@@ -100,13 +100,13 @@ nav .navbar-nav {
 
 @media (max-width: 576px) {
   .partners .flex {
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (max-width: 300px) {
   .partners .flex {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
