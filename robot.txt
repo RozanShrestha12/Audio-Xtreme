@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Disallow: /cgi-bin/
+Sitemap: https://www.e-zrideautosale.com/sitemap.xml
